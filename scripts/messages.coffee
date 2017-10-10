@@ -19,6 +19,8 @@ module.exports = (robot) ->
   robot.respond /lunch/gim, (res) ->
     res.send " > I want a peanut butter and jelly sandwich for lunch today."
 
+  robot.response /josh/gim, (res) ->
+    res.send " > Something worked on the Heroku side"
 
   annoyIntervalId = 5
   
